@@ -13,7 +13,10 @@ export default function Contact() {
     <section id="contact" className="bg-black text-white">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold tracking-tight">Initiate Contact</h3>
-        <p className="mt-3 text-white/70">Send a pulse. I will respond across dimensions.</p>
+        <p className="mt-3 text-white/70">
+          Send a pulse or email directly at{' '}
+          <a href="mailto:sayam1win@gmail.com" className="underline decoration-white/30 hover:decoration-white">sayam1win@gmail.com</a>.
+        </p>
         <form onSubmit={onSubmit} className="mt-8 grid grid-cols-1 gap-4">
           <input
             type="text"
