@@ -1,19 +1,15 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Thesis from './components/Thesis';
-import Dimensions from './components/Dimensions';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar.jsx';
+import Hero from './components/Hero.jsx';
+import ReactiveDomains from './components/ReactiveDomains.jsx';
+import Footer from './components/Footer.jsx';
 
-function App() {
+export default function App() {
   return (
     <div className="min-h-screen bg-black text-white">
       <Navbar />
       <Hero />
-      <Thesis />
-      <Dimensions />
+      <ReactiveDomains />
       <Footer />
     </div>
   );
 }
-
-export default App;

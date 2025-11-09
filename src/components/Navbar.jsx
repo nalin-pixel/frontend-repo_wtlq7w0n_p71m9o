@@ -5,7 +5,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const navItems = [
-    { label: 'Thesis', href: '#thesis' },
+    { label: 'Domains', href: '#domains' },
     { label: 'Dimensions', href: '#dimensions' },
     { label: 'Archive', href: '#archive' },
   ];
@@ -56,6 +56,13 @@ export default function Navbar() {
                 {item.label}
               </a>
             ))}
+            <a
+              href="#contact"
+              className="text-sm text-white/90"
+              onClick={() => setOpen(false)}
+            >
+              Connect
+            </a>
           </div>
         </div>
       )}
